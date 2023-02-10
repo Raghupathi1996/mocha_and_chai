@@ -1,0 +1,400 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 10,
+    "passes": 6,
+    "pending": 2,
+    "failures": 2,
+    "start": "2023-02-03T11:19:30.607Z",
+    "end": "2023-02-03T11:19:31.095Z",
+    "duration": 488,
+    "testsRegistered": 10,
+    "passPercent": 75,
+    "pendingPercent": 20,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b81be24e-ab3e-4d0f-bf5b-f5023469ed2d",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e4f803ec-6768-4a24-9f07-06afe465f9f6",
+          "title": "Suite 1",
+          "fullFile": "/home/raghupathi/Desktop/mochaAndChai/test/app.spec.js",
+          "file": "/test/app.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Suite 1\"",
+              "fullTitle": "Suite 1 \"before all\" hook in \"Suite 1\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"before\");",
+              "err": {},
+              "uuid": "cba38981-6cbb-49cb-8fd0-55620a549929",
+              "parentUUID": "e4f803ec-6768-4a24-9f07-06afe465f9f6",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook in \"Suite 1\"",
+              "fullTitle": "Suite 1 \"before each\" hook in \"Suite 1\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"beforeEach\");",
+              "err": {},
+              "uuid": "6591d202-318f-4148-8af9-735bcfe000e3",
+              "parentUUID": "e4f803ec-6768-4a24-9f07-06afe465f9f6",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"Suite 1\"",
+              "fullTitle": "Suite 1 \"after all\" hook in \"Suite 1\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "5 \n        console.log(\"after\");",
+              "err": {},
+              "uuid": "0278fdcd-2ca4-40a2-802a-c197858c4cb4",
+              "parentUUID": "e4f803ec-6768-4a24-9f07-06afe465f9f6",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook in \"Suite 1\"",
+              "fullTitle": "Suite 1 \"after each\" hook in \"Suite 1\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"afterEach\");",
+              "err": {},
+              "uuid": "72113cb7-17d3-41b5-8037-0fab1a49324a",
+              "parentUUID": "e4f803ec-6768-4a24-9f07-06afe465f9f6",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "add(2,3) should return 5",
+              "fullTitle": "Suite 1 add(2,3) should return 5",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"it\");\n// expect(add(2,3)).to.be.equal(50);",
+              "err": {},
+              "uuid": "92114893-6134-49e6-a6bb-fca90c3180c7",
+              "parentUUID": "e4f803ec-6768-4a24-9f07-06afe465f9f6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "add(3,3) should return 6",
+              "fullTitle": "Suite 1 add(3,3) should return 6",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// expect(add(3,3)).to.be.equal(6);\nconsole.log(\"it 2\");",
+              "err": {},
+              "uuid": "8b57ba66-378d-47a6-81ae-08c9aa1fd5c1",
+              "parentUUID": "e4f803ec-6768-4a24-9f07-06afe465f9f6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "92114893-6134-49e6-a6bb-fca90c3180c7",
+            "8b57ba66-378d-47a6-81ae-08c9aa1fd5c1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 20000
+        },
+        {
+          "uuid": "c3853022-a17f-488c-8af3-6ba454cf25f0",
+          "title": "test suit",
+          "fullFile": "/home/raghupathi/Desktop/mochaAndChai/test/async.app.spec.js",
+          "file": "/test/async.app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promised based way",
+              "fullTitle": "test suit promised based way",
+              "timedOut": false,
+              "duration": 291,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"retry attempt\", count)\ncount++;\n// this.retries(2);\nthis.timeout(1000);\nreturn axios.get('https://reqres.in/api/users?page=2').then(res => {\n    expect(res.data.data[0].email).to.be.equal(\"michael.lawson@reqres.in\");\n})",
+              "err": {},
+              "uuid": "e7ba8556-43c4-4213-922c-129d0d31662e",
+              "parentUUID": "c3853022-a17f-488c-8af3-6ba454cf25f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "done based way",
+              "fullTitle": "test suit done based way",
+              "timedOut": false,
+              "duration": 75,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "axios.get('https://reqres.in/api/users?page=2').then(res => {\n    // console.log(\"1\", res.data);\n    // console.log(\"2\", res.data.data[0]);\n    expect(res.data.data[0].email).to.be.equal(\"michael.lawson@reqres.int\");\n    done()\n}).catch(err => {\n    done(err)\n})",
+              "err": {
+                "message": "AssertionError: expected 'michael.lawson@reqres.in' to equal 'michael.lawson@reqres.int'",
+                "estack": "AssertionError: expected 'michael.lawson@reqres.in' to equal 'michael.lawson@reqres.int'\n    at /home/raghupathi/Desktop/mochaAndChai/test/async.app.spec.js:20:50\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+                "diff": "- michael.lawson@reqres.in\n+ michael.lawson@reqres.int\n"
+              },
+              "uuid": "890068fc-7490-4e9d-82d7-e02320ace5f9",
+              "parentUUID": "c3853022-a17f-488c-8af3-6ba454cf25f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "async await based way",
+              "fullTitle": "test suit async await based way",
+              "timedOut": false,
+              "duration": 41,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const res = await axios.get('https://reqres.in/api/users?page=2')\n    // console.log(\"1\", res.data);\n    // console.log(\"2\", res.data.data[0]);\nexpect(res.data.data[0].email).to.be.equal(\"michael.lawson@reqres.in\");",
+              "err": {},
+              "uuid": "e21fd97a-036b-4ca9-afa9-b4d010dffb30",
+              "parentUUID": "c3853022-a17f-488c-8af3-6ba454cf25f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 2",
+              "fullTitle": "test suit Test 2",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "2bf3c32c-4900-4a8f-93eb-4b5e9dce612e",
+              "parentUUID": "c3853022-a17f-488c-8af3-6ba454cf25f0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e7ba8556-43c4-4213-922c-129d0d31662e",
+            "e21fd97a-036b-4ca9-afa9-b4d010dffb30"
+          ],
+          "failures": [
+            "890068fc-7490-4e9d-82d7-e02320ace5f9"
+          ],
+          "pending": [
+            "2bf3c32c-4900-4a8f-93eb-4b5e9dce612e"
+          ],
+          "skipped": [],
+          "duration": 407,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 20000
+        },
+        {
+          "uuid": "d7fbc263-1c25-4c6d-a313-425d68c8f26e",
+          "title": "async test suit",
+          "fullFile": "/home/raghupathi/Desktop/mochaAndChai/test/async.app.spec.js",
+          "file": "/test/async.app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promised based way",
+              "fullTitle": "async test suit promised based way",
+              "timedOut": false,
+              "duration": 26,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"retry attempt\", count)\ncount++;\n// this.retries(2);\nthis.timeout(1000);\nreturn axios.get('https://reqres.in/api/users?page=2').then(res => {\n    expect(res.data.data[0].email).to.be.equal(\"michael.lawson@reqres.in\");\n})",
+              "err": {},
+              "uuid": "5722d574-b033-4c07-8ecd-0a059f401bb3",
+              "parentUUID": "d7fbc263-1c25-4c6d-a313-425d68c8f26e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "done based way",
+              "fullTitle": "async test suit done based way",
+              "timedOut": false,
+              "duration": 26,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "axios.get('https://reqres.in/api/users?page=2').then(res => {\n    // console.log(\"1\", res.data);\n    // console.log(\"2\", res.data.data[0]);\n    expect(res.data.data[0].email).to.be.equal(\"michael.lawson@reqres.int\");\n    done()\n}).catch(err => {\n    done(err)\n})",
+              "err": {
+                "message": "AssertionError: expected 'michael.lawson@reqres.in' to equal 'michael.lawson@reqres.int'",
+                "estack": "AssertionError: expected 'michael.lawson@reqres.in' to equal 'michael.lawson@reqres.int'\n    at /home/raghupathi/Desktop/mochaAndChai/test/async.app.spec.js:55:50\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+                "diff": "- michael.lawson@reqres.in\n+ michael.lawson@reqres.int\n"
+              },
+              "uuid": "d950593d-5e5a-4888-ab36-a631b1b12977",
+              "parentUUID": "d7fbc263-1c25-4c6d-a313-425d68c8f26e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "async await based way",
+              "fullTitle": "async test suit async await based way",
+              "timedOut": false,
+              "duration": 16,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const res = await axios.get('https://reqres.in/api/users?page=2')\n    // console.log(\"1\", res.data);\n    // console.log(\"2\", res.data.data[0]);\nexpect(res.data.data[0].email).to.be.equal(\"michael.lawson@reqres.in\");",
+              "err": {},
+              "uuid": "1957b8f8-929b-489a-8ec7-8e34754a0e5d",
+              "parentUUID": "d7fbc263-1c25-4c6d-a313-425d68c8f26e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 2",
+              "fullTitle": "async test suit Test 2",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "9d98b38b-c958-4eab-b7ee-68a5c6ff9e17",
+              "parentUUID": "d7fbc263-1c25-4c6d-a313-425d68c8f26e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5722d574-b033-4c07-8ecd-0a059f401bb3",
+            "1957b8f8-929b-489a-8ec7-8e34754a0e5d"
+          ],
+          "failures": [
+            "d950593d-5e5a-4888-ab36-a631b1b12977"
+          ],
+          "pending": [
+            "9d98b38b-c958-4eab-b7ee-68a5c6ff9e17"
+          ],
+          "skipped": [],
+          "duration": 68,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 20000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 20000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "Test_Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "Report",
+        "reportFilename": "Test_Report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
